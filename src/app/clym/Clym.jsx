@@ -9,6 +9,7 @@ const Clym = () => {
     document.head.appendChild(script1);
 
     const script2 = document.createElement("script");
+    
     script2.innerHTML = `
           (function(d,s,i,w,o){
             var js,cjs=d.getElementsByTagName(s)[0];
